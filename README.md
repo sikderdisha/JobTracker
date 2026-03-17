@@ -1,81 +1,129 @@
-## Welcome To ( সহজ সরল সিম্পল ) Assignment - 4 
+📌 Job Application Tracker
 
+A simple and responsive Job Application Tracker web app built using HTML, Tailwind CSS, DaisyUI, and JavaScript. This project helps users organize and track their job applications by categorizing them into different stages such as All, Interview, and Rejected.
 
----
-# 📅 No Deadline For 60 marks <span style="color: #22c55e;">( যেকোনো সময়ে সাবমিট করলেই ৬০ মার্কে কাউন্ট হবে এবং এর জন্য কোনো লাইফ ব্যবহার করতে হবে না)</span>
+🚀 Features
+📊 Application Statistics
 
+Displays total number of applications
 
-# Main Requirements
+Tracks interview and rejected counts
 
-## Design Part
+📂 Tabbed Navigation
 
-## Dashboard
-- Website name and Create a dashboard like figma 
-- The section should be responsive for mobile devices. It is totally up to you. 
+Filter jobs by:
 
-## Available Jobs Section
-- A title on the left side, jobs count on the right side 
-- 3 different tab  below the section title 
-- Minimum 8 cards with:
-	- companyName
-	- position
-	- location
-	- type
-	- salary
-	- description
-	- 2 buttons: Interview, Rejected
-- By default all the jobs data will show on All tab, and the Interview, Rejected tab will show “No jobs Available” message with a subtitle below and an icon/image on the above
+All
 
-- The section should be responsive for mobile devices. It is totally up to you.
+Interview
 
---- 
+Rejected
 
-## Functionalities Part
-- Clicking on Interview button on the card 
-    - will add the data on Interview tab 
-    - add the status as Interview.
-    - Will increase the the count of interview in Dashboard 
+🎯 Interactive UI
 
-- Clicking on Rejected button on the card 
-    - will add the data on Rejected tab 
-    - add the status as Rejected.
-    - Will increase the the count of Rejected in Dashboard
+Dynamic button states (active/inactive)
 
-- Enable toggle between Interview and rejected button(you can select Rejected button after clicking on Interview, and Interview button after clicking on Rejected button). It will change the tab and dashboard count also. It will show tab wise jobs count on the right.
+Smooth section switching without page reload
 
----
+🧩 Job Cards
 
-# Challenges Requirements
-- Clicking on the delete button will remove that card from the UI, and the count will be deducted from the dashboard card and the main section.
-- No lorem ipsum text on your website. At least 8 meaningful commits in your project.  
+Company name, role, location, salary
 
-- Create a readme file and answer this question on your own. Don’t copy-paste from Google or any AI chatbot. 
+Status indicator (e.g., Not Applied)
 
+Action buttons:
 
-## Answers to Questions
+Mark as Interview
 
-### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
+Mark as Rejected
 
-### 2. How do you create and insert a new element into the DOM?
+📱 Responsive Design
 
-### 3. What is Event Bubbling? And how does it work?
+Works across mobile, tablet, and desktop
 
-### 4. What is Event Delegation in JavaScript? Why is it useful?
+⚙️ Functionalities
 
-### 5. What is the difference between preventDefault() and stopPropagation() methods?
+Clicking on Interview button:
 
----
+Moves the job to Interview tab
 
+Updates status to Interview
 
-**Technology Stack:**
-- HTML
-- CSS (Vanilla/Tailwind/DaisyUI)
-- JavaScript (Vanilla)
+Increases Interview count in dashboard
 
+Clicking on Rejected button:
 
---- 
+Moves the job to Rejected tab
 
-## What to submit: 
+Updates status to Rejected
 
-1. GitHub Repository Link: 
-2. Live Site Link: 
+Increases Rejected count in dashboard
+
+Toggle functionality:
+
+You can switch between Interview and Rejected
+
+Dashboard count updates dynamically
+
+Tab-wise job count is displayed
+
+🛠️ Technologies Used
+
+HTML5
+
+Tailwind CSS
+
+DaisyUI
+
+JavaScript (DOM Manipulation)
+
+💡 What I Learned
+
+DOM selection and event handling
+
+Dynamic class manipulation
+
+Building tab-based UI
+
+Managing UI state (active/inactive buttons)
+
+Structuring reusable components
+
+🔮 Future Improvements
+
+Move cards between sections dynamically
+
+Update counters in real-time
+
+Add local storage support
+
+Add form to create new job entries
+
+Add delete functionality with live count update
+
+📸 Preview
+
+(Add screenshots or demo GIF here)
+
+🧪 Challenges Requirements
+
+Clicking on delete button will:
+
+Remove card from UI
+
+Update dashboard counts
+
+Remove from main section
+
+Ensure:
+
+No lorem ipsum text
+
+Minimum 8 meaningful commits
+
+❓ Questions
+1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
+2. How do you create and insert a new element into the DOM?
+3. What is Event Bubbling? And how does it work?
+4. What is Event Delegation in JavaScript? Why is it useful?
+5. What is the difference between preventDefault() and stopPropagation() methods?
