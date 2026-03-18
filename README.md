@@ -1,81 +1,115 @@
-## Welcome To ( সহজ সরল সিম্পল ) Assignment - 4 
+## Welcome To <span style="color: #22c55e;">Job Application Tracker </span>
 
 
----
-# 📅 No Deadline For 60 marks <span style="color: #22c55e;">( যেকোনো সময়ে সাবমিট করলেই ৬০ মার্কে কাউন্ট হবে এবং এর জন্য কোনো লাইফ ব্যবহার করতে হবে না)</span>
 
+# A simple and responsive Job Application Tracker web app built using HTML, Tailwind CSS, DaisyUI, and JavaScript.
+# This project helps users organize and track their job applications by categorizing them into different stages such as All, Interview, and Rejected.
 
-# Main Requirements
+## 🚀 Features
 
-## Design Part
+## Application Statistics
+- Displays total number of applications
+- Tracks Interview and Rejected counts
 
-## Dashboard
-- Website name and Create a dashboard like figma 
-- The section should be responsive for mobile devices. It is totally up to you. 
+## Tabbed Navigation
+- Filter jobs by:
+- All
+- Interview
+- Rejected
 
-## Available Jobs Section
-- A title on the left side, jobs count on the right side 
-- 3 different tab  below the section title 
-- Minimum 8 cards with:
-	- companyName
-	- position
-	- location
-	- type
-	- salary
-	- description
-	- 2 buttons: Interview, Rejected
-- By default all the jobs data will show on All tab, and the Interview, Rejected tab will show “No jobs Available” message with a subtitle below and an icon/image on the above
+## Interactive UI
+- Dynamic button states (active/inactive)
+- Smooth section switching without page reload
 
-- The section should be responsive for mobile devices. It is totally up to you.
+## Job Cards
+- Company name, role, location, salary
 
+- Status indicator (e.g., Not Applied)
+
+- Action buttons:
+
+    - Mark as Interview
+
+    - Mark as Rejected
+
+    - Delete Job
+
+## Responsive Design
+- Works across mobile, tablet, and desktop
 --- 
 
-## Functionalities Part
-- Clicking on Interview button on the card 
-    - will add the data on Interview tab 
-    - add the status as Interview.
-    - Will increase the the count of interview in Dashboard 
+## Functionalities
+- Clicking on Interview button: 
+    - Moves the job to Interview tab
+    - Updates status to Interview
+    - Increases Interview count in dashboard
 
-- Clicking on Rejected button on the card 
-    - will add the data on Rejected tab 
-    - add the status as Rejected.
-    - Will increase the the count of Rejected in Dashboard
+- Clicking on Rejected button: 
+    - Moves the job to Rejected tab 
+    - Updates status to Rejected
+    - Increases Rejected count in dashboard
 
-- Enable toggle between Interview and rejected button(you can select Rejected button after clicking on Interview, and Interview button after clicking on Rejected button). It will change the tab and dashboard count also. It will show tab wise jobs count on the right.
+- Toggle functionality: 
+    - Switch between Interview and Rejected 
+    - Dashboard count updates dynamically
+    - Tab-wise job count is displayed
+
+- Clicking on Delete button: 
+    - Removes card from UI
+    - Updates dashboard counts dynamically
+    - Removes from main section
+
 
 ---
 
-# Challenges Requirements
-- Clicking on the delete button will remove that card from the UI, and the count will be deducted from the dashboard card and the main section.
-- No lorem ipsum text on your website. At least 8 meaningful commits in your project.  
-
-- Create a readme file and answer this question on your own. Don’t copy-paste from Google or any AI chatbot. 
-
+# Technologies Used
+- HTML5
+- Tailwind CSSmeaningful commits in your project.  
+- DaisyUI
+- JavaScript (DOM Manipulation)
 
 ## Answers to Questions
 
 ### 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
+getElementById: Finds a specific element by its id. If not found, it returns null. All ids must be unique.
+
+getElementsByClassName: Finds specific element by its class name.It return a HTML collection.
+
+querySelector: returns the first element that matches a CSS selector.
+
+querySelectorAll: returns all the elements that matches CSS selector.
+
+
 ### 2. How do you create and insert a new element into the DOM?
+
+To create new element we use createElement() in DOM.
+Example:
+const newElement = document.createElement('div');
+
+insert element
+example:
+newElement.id= "myNewDiv";
 
 ### 3. What is Event Bubbling? And how does it work?
 
+When an event happens (like clicking a button),the element is triggered first then it moves upward to its parent and grandparent.It moves upward like bubbling thats why its called Event Bubbling.
+
+Example: If any event happens in child element,the child element triggered first then it move to its parent.
+Here child execute first then serially parent,grand parent will be executed.
 ### 4. What is Event Delegation in JavaScript? Why is it useful?
 
+Delegation means handing over responsibility. Normally we add event listeners to each element individually. But in event delegation, we add a single event listener to a parent element to handle events for multiple child elements.
+his method is useful when:
+We don’t know the exact number of elements
+We need to add event listeners dynamically
+New elements are added (through a button)and they still work without adding new listeners.
+It also easy to maintain,help to faster execution.
+
 ### 5. What is the difference between preventDefault() and stopPropagation() methods?
+preventDefault() stops the default behavior  of browsers.
+stopPropagation() stops event Bubbling.
 
----
-
-
-**Technology Stack:**
-- HTML
-- CSS (Vanilla/Tailwind/DaisyUI)
-- JavaScript (Vanilla)
 
 
 --- 
-
-## What to submit: 
-
-1. GitHub Repository Link: 
-2. Live Site Link: 
